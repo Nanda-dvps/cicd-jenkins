@@ -10,7 +10,7 @@ terraform {
     bucket = "remote-state-expense"
     key    = "expense-cicd"
     region = "us-east-1"
-    dynamodb_table = "locking
+    dynamodb_table = "locking"
   }
 }
 
